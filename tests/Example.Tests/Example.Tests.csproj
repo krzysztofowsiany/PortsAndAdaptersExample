@@ -8,6 +8,7 @@
 
     <ItemGroup>
         <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.0.0-preview-20181205-02" />
+        <PackageReference Include="Shouldly" Version="3.0.2" />
         <PackageReference Include="xunit" Version="2.4.0" />
         <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
     </ItemGroup>
@@ -16,6 +17,10 @@
       <Folder Include="unit_tests\adapters" />
       <Folder Include="unit_tests\application\domain\model" />
       <Folder Include="unit_tests\application\domain\services" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\src\ExampleDomain\ExampleDomain.csproj" />
     </ItemGroup>
 
 </Project>
