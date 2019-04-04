@@ -1,15 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
- <ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\ExampleDomain\ExampleDomain.csproj" />
-    <ProjectReference Include="..\ExampleAdapters\ExampleAdapters.csproj" />
     <ProjectReference Include="..\ExampleApplication\ExampleApplication.csproj" />
   </ItemGroup>
-
 
 </Project>
