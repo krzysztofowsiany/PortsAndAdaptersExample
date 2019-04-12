@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DomainBase\DomainBase.csproj" />
+    <ProjectReference Include="..\..\libs\DomainBase\DomainBase.csproj" />
   </ItemGroup>
 
 </Project>
