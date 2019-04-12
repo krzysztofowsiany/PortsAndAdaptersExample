@@ -1,8 +1,8 @@
-namespace ExampleApplication.Commands {
-    using ExampleDomain.Services;
+namespace Example.Application.Commands {
+    using Example.Domain.Services;
     using CQRSBase.Contracts.Command;
     using System;
-    using ExampleApplication.Ports.Infrastructure;
+    using Example.Ports.Infrastructure;
     
 
     public class UseConsoleMessageHandler : ICommandHandler<UseConsoleMessage> {

@@ -1,6 +1,6 @@
-namespace ExampleAdapters.Infrastructure
+namespace Example.Adapters.Infrastructure
 {
-    using ExampleApplication.Ports.Infrastructure;
+    using Example.Ports.Infrastructure;
     using System;
     public class ConsoleOutput : IConsoleOutput
     {

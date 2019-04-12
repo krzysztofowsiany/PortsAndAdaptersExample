@@ -1,5 +1,5 @@
 namespace Example.Tests.unit_tests.domain.services.upper_case_text_changer {
-    using ExampleDomain.Services;
+    using Example.Domain.Services;
     using System;
     using Shouldly;
     public class upper_case_text_changer_tests_fixture {

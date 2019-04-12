@@ -10,8 +10,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CQRSBase\CQRSBase.csproj" />
-    <ProjectReference Include="..\ExampleDomain\ExampleDomain.csproj" />
+    <ProjectReference Include="..\..\CQRSBase\CQRSBase.csproj" />
+    <ProjectReference Include="..\Domain\Domain.csproj" />
+    <ProjectReference Include="..\Ports\Ports.csproj" />
   </ItemGroup>
 
 </Project>

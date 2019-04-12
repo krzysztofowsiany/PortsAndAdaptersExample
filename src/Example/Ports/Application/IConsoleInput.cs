@@ -1,4 +1,4 @@
-namespace ExampleApplication.Ports.API
+namespace Example.Ports.Application
 {
     using System;
     public interface IConsoleInput

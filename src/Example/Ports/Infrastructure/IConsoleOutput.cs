@@ -1,4 +1,4 @@
-namespace ExampleApplication.Ports.Infrastructure
+namespace Example.Ports.Infrastructure
 {
     using System;
     public interface IConsoleOutput

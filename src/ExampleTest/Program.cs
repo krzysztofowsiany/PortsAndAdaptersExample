@@ -1,9 +1,9 @@
 ﻿namespace ExampleTest {
     using System;
-    using ExampleDomain.Services;
-    using ExampleAdapters.Infrastructure;
-    using ExampleAdapters.API;
-    using ExampleApplication.Commands;
+    using Example.Domain.Services;
+    using Example.Adapters.Infrastructure;
+    using Example.Adapters.Application;
+    using Example.Application.Commands;
 
     class Program {
         static void Main(string[] args) {

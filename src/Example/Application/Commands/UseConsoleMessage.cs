@@ -1,4 +1,4 @@
-namespace ExampleApplication.Commands
+namespace Example.Application.Commands
 {
     using CQRSBase.Contracts.Command;
     public class UseConsoleMessage : ICommand

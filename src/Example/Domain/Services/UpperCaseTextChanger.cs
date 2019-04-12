@@ -1,4 +1,4 @@
-namespace ExampleDomain.Services
+namespace Example.Domain.Services
 {
     public class UpperCaseTextChanger
     {
