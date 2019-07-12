@@ -1,9 +1,8 @@
 namespace Example.Adapters.Application {
     using System;
     using Example.Application.Commands;
-    using Example.Ports.Application;
     
-    public class ConsoleInput : IConsoleInput {
+    public class ConsoleInput {
         private readonly UseConsoleMessageHandler _useConsoleMessageHandle;
 
         public ConsoleInput(UseConsoleMessageHandler useConsoleMessageHandler) {
