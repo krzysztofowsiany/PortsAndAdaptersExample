@@ -1,9 +1,10 @@
+using Application.Commands;
+
 namespace Example.Application.Commands {
     using Example.Domain.Services;
     using CQRSBase.Contracts.Command;
     using System;
-    using Example.Ports.Infrastructure;
-    
+
 
     public class UseConsoleMessageHandler : ICommandHandler<UseConsoleMessage> {
 

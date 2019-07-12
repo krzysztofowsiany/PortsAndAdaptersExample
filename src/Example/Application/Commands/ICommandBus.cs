@@ -1,4 +1,4 @@
-namespace Example.Ports.Infrastructure
+namespace Application.Commands
 {
     public interface ICommandBus
     {

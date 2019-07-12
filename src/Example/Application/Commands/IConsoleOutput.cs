@@ -1,6 +1,5 @@
-namespace Example.Ports.Infrastructure
+namespace Application.Commands
 {
-    using System;
     public interface IConsoleOutput
     {
          void PutMessage(string message);
